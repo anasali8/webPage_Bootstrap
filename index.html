@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body class="100vh">
+    <nav class="navbar navbar-expand-lg bg-dark ">
+        <div class="container-fluid">
+
+            <a class="navbar-brand text-white" href="#"> <img src="coffee-cup.png" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top me-1">Coffee Shop</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-white-50 active" aria-current="page" href="#Home">Home</a>
+                    <a class="nav-link text-white-50" href="#About">About</a>
+                    <a class="nav-link text-white-50" href="#Menu">Menu</a>
+                    <a class="nav-link text-white-50" href="#Contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="Home" class="bg-primary ">
+        <div class="container d-flex flex-column justify-content-center align-items-center p-5" >
+            <h1 class="text-white">Welcome to Our Coffee Shop</h1>
+            <p class="text-white">freshly brewed coffee just for you!</p>
+            <a href="#" class="btn btn-warning">Order Now</a>
+        </div>
+    </div>
+
+    <div id="About" class="bg-light">
+        <div class="container d-flex flex-column justify-content-center align-items-center p-5"
+            >
+            <h2 class="text-dark">About Our Coffee</h2>
+            <p class="text-secondary text-center">we serve the finest coffee in town, sourced from the best beans. our
+                expert baristas craft each cup with care.</p>
+        </div>
+    </div>
+    
+    <div id="Menu" class="bg-white">
+        <div class="container d-flex flex-column justify-content-center align-items-center p-4" >
+
+            <h1 class="text-dark"> Our Menu </h1>
+
+            <div class="row w-100">
+                <div class="col-md-4 ">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Espresso</h5>
+                            <p class="card-text">Rich and bold espresso shot </p>
+                            <span class="text-light bg-success p-2 rounded ">Price: $3.00</span>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Latte</h5>
+                            <p class="card-text">smooth espresso with steamed milk.</p>
+                            <span class="text-light bg-success p-2 rounded">Price: $4.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Cappuccino</h5>
+                            <p class="card-text">espresso with steamed milk foam.</p>
+                            <span class="text-light bg-success p-2 rounded">Price: $4.50</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="Contact" class="bg-dark">
+        <div class="container d-flex flex-column justify-content-center align-items-center p-3">
+            <h2 class="text-white-50">Visit Us Today</h2>
+            <span class="text-white-50 mb-2">
+               <i class="bi bi-geo-fill text-light"></i>
+                We are located at 123 Coffee St, Brewtown
+            </span>
+            <span class="text-white-50 mb-2">
+                <i class="bi bi-telephone-fill text-light"></i>
+                Call us: (123) 456-7890
+            </span>
+            <span class="text-white-50 mb-2">
+                <i class="bi bi-clock-fill text-light"></i>
+                Open daily: 8 AM - 8 PM
+            </span>
+            <button class="btn btn-outline-warning">Get Directions</button>
+
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
